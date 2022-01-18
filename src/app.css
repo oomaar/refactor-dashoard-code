@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1000px) {
+    .page-sidebar {
+      margin-top: 60px;
+    }
+  }
+  
+  .signout{
+      
+      bottom: 2%;
+      position: absolute;
+      left: 32%;
+    padding: 10px;
+    background-color: #4466f2;  
+    border: none;
+    border-radius: 8px;
+    color: white; 
+    outline: none;
+}
+.signout:hover{
+    cursor: pointer;
+}
+.signout:focus{
+    outline: none;
+}
+.Login{
+ padding: 20px;
+  background-color: white;
+  width: 30%;
+  margin: auto auto;
+  margin-top: 20vh;
+  border-radius: 8px;
+}
+.Login .login-btn{
+  margin: 0 auto;
+  width: 100%;
+  }
+.form_container{
+  width: 70vw;
+  border-radius: 8px 8px 0px 0px;
+  background-color: white;
+}
+.form{
+  width: 60vw;
+  
+  margin: 0 auto;
+}
+.drop-comp{
+  border: none;
+  margin-top: 2%;
+  border-radius: 8px;
+  height: auto;
+}
+.drop-header{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+  justify-content: space-between;
+  width: 10%;
+}
+.drop-comp .drop-elem{
+  
+  margin-bottom: 2px;
+  background-color: rgb(250, 250, 250,0.6);
+  padding: 5px;
+  padding-left: 10px;
+  
+}
+.drop-comp .drop-elem:hover{
+  background-color: rgb(250, 250, 250);
+}
+.drop-elem .click{
+  color: #555;
+}
+.drop-elem .click:hover{
+  cursor: pointer;
+}
+.drop-elem .item{
+  font-size: 15px;
+  color: #555;
+}
+.drop-elem:last-of-type{
+  margin-bottom: 0;
+  border-radius: 0px 0px  8px 8px;
+}
+.drop-elem:first-of-type{
+  border-radius: 8px 8px 0 0 ;
+}
+.drop-elem h5{
+  
+  color: #222;
+}
+.drop-body{
+  display: none;
+}
+.drop-elem .active{
+  display: block;
+  color: #111;
+  padding-left: 20px;
+}
+
+.drop-elem .active p {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-bottom: 1%;
+
+}
+
+ .card-body .highcharts-container .highcharts-root  , .card-body .highcharts-container{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .page-wrapper .page-body-wrapper .page-sidebar{
+    width: 22% !important;
+    font-size: 10px !important;
+    text-align: left;
+  }
+  .page-wrapper .page-body-wrapper .page-sidebar.open ~ .page-body{
+    margin-left: 0 !important;
+  }
+  .page-wrapper .page-body-wrapper .page-sidebar ~ .page-body{
+    margin-left: 21% !important;
+  }
+  .input_container input{
+    width: 40%;
+  }
+  .drop-header{
+    width: 27%;
+  }
+  .page-sidebar span{
+    font-size: 10px;
+  }
+  .page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-submenu > li> a{
+    font-size: 8px;
+  }
+}
+.input_container input{
+  border: 1px solid #4466f2;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #111;
+}
+.highcharts-figure,
+.highcharts-data-table table {
+  margin: 1em auto;
+  width: 100px !important;
+}

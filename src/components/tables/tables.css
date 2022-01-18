@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1000px) {
+    .table_container{
+        overflow-x: scroll;
+    }    
+    table{
+      table-layout:auto !important;
+      overflow-x: scroll;
+    }
+  }
+  .table_container button{
+    background-color: rgb(68, 102, 242);
+    border: none;
+    padding: 7px;
+    margin-left: 1%;
+    color: white;
+  }
+ 
+  .search{
+    width: 18%;
+    padding-left: 1%;
+      color: black;
+      font-size: 20px;
+      margin-bottom: 2%;
+      border: 1px solid rgb(68, 102, 242);
+      border-radius: 8px;
+  }
+  
+  .search::placeholder{
+    text-align: left;
+    padding-left: 4%;
+  }
+  .search:focus{  
+    outline-color: rgb(68, 102, 242);
+  }
+  .goto:focus{
+    outline-color: rgb(68, 102, 242);
+  }
+  .goto{
+    border:1px solid rgb(68, 102, 242)
+  }
+  
+  table{
+    table-layout: fixed;
+  }
+  table thead th:first-of-type{
+    width: 10%;
+  }
+  table tbody tr:nth-child(2n+1){
+    background-color: #ccc;
+  }
+
